@@ -286,9 +286,23 @@ button {
 }
 
 .nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.nav__logo-img {
+  height: 70px;
+  width: auto;
+  display: inline-block;
+}
+
+.nav__logo-text {
+  font-size: 1.5rem;
+  font-weight: 800;
   color: var(--primary-color);
-  font-weight: var(--font-bold);
-  font-size: var(--h3-font-size);
+  letter-spacing: 0.5px;
+  display: inline-block;
 }
 
 .nav__menu {
