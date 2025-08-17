@@ -1400,3 +1400,36 @@ button {
     --border-color: #000000;
   }
 }
+/* Responsive Contact Section */
+@media (max-width: 768px) {
+  .contact__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .contact__form,
+  .contact__info {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    border-radius: 1.2rem;
+    box-shadow: none;
+  }
+  .contact__form {
+    order: 1;
+  }
+  .contact__info {
+    order: 2;
+  }
+  .form__group {
+    width: 100%;
+  }
+  .form__input,
+  .form__textarea {
+    width: 100%;
+    min-width: 0;
+  }
+  .button--full {
+    width: 100%;
+  }
+}
